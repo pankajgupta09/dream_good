@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const ContactCard = () => {
     const handlePhoneClick = () => {
-        window.open('tel:+16046790308');
+        window.open('tel:+91 7999232740');
     };
     return (
         <div className={'w-full relative'}>
@@ -14,7 +14,7 @@ const ContactCard = () => {
                 <div className={'flex flex-col items-center gap-4 text-white text-xl font-semibold'}>
                     <div className={'flex flex-col items-center justify-center'}>
                         Appointment Service call us<br/>
-                        <i onClick={handlePhoneClick} className={'cursor-pointer hover:underline'}>+1 604 679 0308</i>
+                        <i onClick={handlePhoneClick} className={'cursor-pointer hover:underline'}>+91 7999232740</i>
                     </div>
                     <div className={'flex justify-center'}>
                         Monday - Saturday from<br/>

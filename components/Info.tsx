@@ -6,11 +6,11 @@ import Link from "next/link";
 
 const Info = () => {
     const handlePhoneClick = () => {
-        window.open('tel:+16046790308');
+        window.open('tel:+7999232740');
     };
 
     const handleEmailClick = () => {
-        window.open('mailto:Info@gooddreamsimmigration.com');
+        window.open('mailto:pankajgupta90000004@gmail.com');
     };
 
     return (
@@ -18,14 +18,14 @@ const Info = () => {
             <div className={'flex flex-col items-center md:flex-row gap-4 md:gap-8'}>
                 <div onClick={handlePhoneClick} className={'group flex gap-2 cursor-pointer items-center'}>
                     <BsFillTelephoneFill size={18} className={'group-hover:text-gray-900 group-hover:scale-105 duration-500 transition-all'}/>
-                    <div className={'group-hover:underline group-hover:text-gray-900 duration-500 transition-all font-semibold'}>+1 604 679 0308</div>
+                    <div className={'group-hover:underline group-hover:text-gray-900 duration-500 transition-all font-semibold'}>+91 7999232740</div>
                 </div>
                 <div onClick={handleEmailClick} className={'group flex gap-2 cursor-pointer items-center'}>
                     <AiFillMail size={18} className={'group-hover:text-gray-900 group-hover:scale-105 duration-500 transition-all'}/>
-                    <div className={'group-hover:underline group-hover:text-gray-900 duration-500 transition-all font-semibold'}>Info@gooddreamsimmigration.com</div>
+                    <div className={'group-hover:underline group-hover:text-gray-900 duration-500 transition-all font-semibold'}>pankajgupta90000004@gmail.com</div>
                 </div>
                 <div className={'flex gap-2 items-center'}>
-                    <a href="https://wa.me/+16046790308"
+                    <a href="https://wa.me/+917999232740"
                        target="_blank"
                        rel="noopener noreferrer"
                     >

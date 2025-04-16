@@ -25,39 +25,20 @@ const Footer = () => {
                             <Image src={logo} width={300} alt={''}/>
                         </Link>
                     </div>
-                    <div className={'p-2 flex md:flex-col w-full md:w-auto shadow shadow-lg shadow-black rounded-md bg-gray-100'}>
-                        <div className={'h-36 flex flex-col justify-center gap-2 items-center border-b border-gray-400'}>
-                            <div className={'flex items-center justify-center text-lg font-semibold text-gray-900'}>RCIC</div>
-                            <a href={'https://college-ic.ca//'}
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               className={''}>
-                                <Image src={rcic} width={150} alt={''}/>
-                            </a>
+                    
                         </div>
-                        <div className={'h-36 flex flex-col justify-center gap-2 items-center'}>
-                            <div className={'flex items-center justify-center text-lg font-semibold text-gray-900'}>CAPIC-ACCPI</div>
-                            <a href={'https://www.capic.ca/EN/ActiveMembersList'}
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               className={''}>
-                                <Image src={capic} width={80} alt={''}/>
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 <div className={'flex flex-col justify-around bg-gray-100 rounded-md shadow shadow-lg shadow-black py-4 px-8 mt-8 md:mt-0 w-full md:w-96'}>
                     <h1 className={'text-3xl font-bold'}>Contact Details</h1>
                     <div className={'text-lg border-b border-gray-500 pb-2 font-semibold'}>
-                        Sushil Sharma(RCIC)
+                        Pankaj Gupta
                     </div>
                     <div onClick={handlePhoneClick} className={'cursor-pointer group flex gap-2 items-center text-lg border-b border-gray-500 pb-2'}>
                         <BsTelephoneFill size={20}/>
-                        <div className={'group-hover:underline'}>+1 604 679 0308</div>
+                        <div className={'group-hover:underline'}>+91 7999232740</div>
                     </div>
                     <div onClick={handleEmailClick} className={'cursor-pointer group flex gap-2 items-center text-lg border-b border-gray-500 pb-2'}>
                         <AiTwotoneMail size={20}/>
-                        <div className={'group-hover:underline'}>Info@gooddreamsimmigration.com</div>
+                        <div className={'group-hover:underline'}>pankajgupta90000004@gmail.com</div>
                     </div>
                     <div className={'group cursor-pointer flex gap-2 items-center text-lg border-b border-gray-500 pb-2'}>
                         <ImLocation2 size={20}/>
@@ -65,7 +46,7 @@ const Footer = () => {
                             href={'https://www.google.com/maps/place/11556+84b+Ave,+Delta,+BC+V4C+2T6,+Canada/@49.1559117,-122.9064395,17z/data=!4m6!3m5!1s0x5485d911b58116f9:0x68f799d76a535a7b!8m2!3d49.1571993!4d-122.9029955!16s%2Fg%2F11c1bf1lr4?entry=ttu'}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className={'group-hover:underline'}>11556, 84 B, Avanue, Delta, BC, Canada, V4C2T6</a>
+                            className={'group-hover:underline'}>ABC</a>
                     </div>
                 </div>
             </div>
